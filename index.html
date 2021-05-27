@@ -1,78 +1,77 @@
-<html>
+<html lang="en">
 
 <head>
-    <title> My favourite hobbies </title>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-
-</head>
 
 <body>
 
-    <ul class="menu">
-        <lin class="links"> ABOUT </lin>
-        <lin class="links"> VIDEOS </lin>
-        <lin class="links"> WORK </lin>
-        <lin class="links"> EARLY LIFE </lin>
-        <lin class="links"> RECORDS </lin>
-    </ul>
-    <section>
-        <img src="https://www.forbesindia.com/media/images/2019/Dec/img_125539_harmanpreet_kaur.jpg">
-        <h1> My Favourite Hobby<br><span id="cricket"> CRICKET
-            </span>
-        </h1>
+    <center>
+        <ul class="menu1">
+            <li class="links"><a href="#home"> HOME</a></li>
+            <li class="links"><a href="#grids">Grid view</a></li>
+            <li class="links"><a href="#slide"> Slide view</a></li>
+        </ul>
+    </center>
+
+    <div class="container"></div>
+
+    <section id="grids">
+        <div class="line"></div>
+        <h2> Grids gallery </h2>
+        <br>
+        <script src="44952-flowers.gif"></script>
+        <div class="row">
+            <img class="img2" src="Orange.png">
+            <img class="img2" src="blue.jpg">
+            <img class="img2" src="Pink%20tulip.jpg">
+            <img class="img2" src="purple.jpg">
+            <br><br>
+        </div>
     </section>
 
-    <section id="bio">
-        <div class="line"></div>
-        <p> Cricket is my favorite hobby and a famous sport too. It makes me feel healthy, fit and a stronger person. It makes me feel confident and proud of what I am. I started playing cricket when I was a kid of 11 years old. I have start cricket in an academy "KTCA" it's my own cricket acadmey and handeled by my father. and I am a Medium Baiser An bowler. This game is not easy we have to give our all effort. but it's fun playing cricket.</p>
+    <div class="row">
+        <img class="img1" src="Red%20rose.jpg">
+        <img class="img1" src="violet.jpg">
+        <img class="img1" src="White.jpg">
+        <img class="img1" src="yellow.jpg">
+        <br><br>
+    </div>
+
+    <section id="slide">
+        <h2> Sliding Gallery </h2>
+        <br>
+        <div class="sliding">
+            <img class="img3" src="blue.jpg">
+            <img class="img3" src="Orange.png">
+            <img class="img3" src="Pink%20tulip.jpg">
+            <img class="img3" src="purple.jpg">
+            <img class="img3" src="Red%20rose.jpg">
+            <img class="img3" src="violet.jpg">
+            <img class="img3" src="White.jpg">
+            <img class="img3" src="yellow.jpg">
+        </div>
     </section>
 
-    <section id="videos">
-        <h1> VIDEOS </h1>
-        <div class="line"></div>
-        <br>
-        <iframe width="727" height="409" src="https://www.youtube.com/embed/f-Rzv1JNLuU?list=WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="727" height="409" src="https://www.youtube.com/embed/kqDBgq9_sx8?list=WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="727" height="409" src="https://www.youtube.com/embed/0AhxseQ6Ilw?list=WL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-    </section>
+    <div class="carousel-inner">
+        <div class="item active">
 
-    <section id="work">
-        <h1> WORK </h1>
-        <div class="line"></div>
-        <br>
-        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Harmanpreet_Kaur#Career" frame-border="0"></iframe>
-    </section>
+            <center>
+                <a href="#" target="_blank">
+                    <img src="blue.jpg" class="img-responsive">
+                </a>
 
-    <section id="early life">
-        <h1> EARLY LIFE </h1>
-        <div class="line"></div>
-        <br>
-        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Harmanpreet_Kaur#Early_life" frame-broder="0"></iframe>
-    </section>
+                <div class="carousel-content">
+                    <p> BLUE </p>
+                </div>
+            </center>
+        </div>
 
-    <section id="records">
-        <h1> RECORDS </h1>
-        <div class="line"></div>
-        <br>
-<a class="records" href="https://www.news18.com/cricketnext/profile/harmanpreet-kaur/batting-59348.html" target="blank"> What Harmanpreet kaur did that she beacame Caption of Internation women's cricket.</a>
-        <br>
-        <section id="home">
-        <h1> MY INSPIRATION</h1>
-        <div class="line"></div>
-        <h2> Click On The Picture To View My Insipration.</h2>
-        <img src="https://expandingsports.com/wp-content/uploads/2020/10/11100.jpg" >
-        <img src="https://www.thestatesman.com/wp-content/uploads/2020/03/Harmanpreet.jpg"  src="https://en.wikipedia.org/wiki/Harmanpreet_Kaur#Career" frame-border="0"></iframe>
-    </section>>
-    </section>
+        <a class="left-carousel-control" href="#mycarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chervon-left"></span>
+        </a>
 
-
-
-</html>
-</body>
+        <a class="right-carousel-control" href="#mycarousel" data-slide="Next">
+            <span class="glyphicon glyphicon-chervon-right"></span>
+        </a>
